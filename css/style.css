@@ -1,0 +1,68 @@
+.container{
+	width:50%;
+	margin:auto;
+}
+.item img{
+	width:100%;
+	vertical-align:middle;
+	height:auto;
+	overflow:hidden;
+}
+.item{
+	position:relative;
+	overflow:hidden;
+}
+.port-info{
+	position:absolute;
+	left:0;
+	right:0;
+	top:0;
+	bottom:20px;
+	opacity:0;
+	height:inherit;
+	width:100%;
+	padding:10px 15px;
+	background-color:#00000087;
+    display:flex;
+	justify-content:center;
+	align-items:center;
+	flex-direction:column;
+	color:white;
+}
+.item:hover .port-info{
+	opacity:1;
+	left:0;
+	bottom:0;
+}
+.item:hover img{
+	transform:scale(1,1);
+	overflow:hidden;
+}
+.item img{
+	transition:all 0.3s ease;
+}
+/* .hover-sec{ */
+	/* position:absolute; */
+	/* left:0; */
+	/* right:0; */
+	/* top:0; */
+	/* opacity:1; */
+	/* height:inherit; */
+	/* width:100%; */
+	/* background-color:gray; */
+	
+/* } */
+/* .hover-sec:hover{ */
+	/* padding:10px 15px; */
+/* } */
+/* .item:hover .hover-sec{ */
+	/* opacity:2; */
+	/* left:0; */
+	/* bottom:0; */
+/* } */
+/* .item:hover img{ */
+	/* transform:scale(1,2); */
+/* } */
+/* .item img{ */
+	/* transition:all 0.3s ease; */
+/* } */
